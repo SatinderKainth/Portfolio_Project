@@ -4,14 +4,12 @@ function myFunction()
     }
 function playSound()
 {
-    console.log("hello");
     document.getElementById("song").play();
-    
 }
 function myFunction1(){
     var menuSelect= document.getElementById("menus").value;
     
-    document.getElementById("submit").innerHTML = "You Selected" + menuSelect;
+    document.getElementById("submit").innerHTML = "you Selected " + menuSelect;
     console.log(menuSelect);
     
 }
